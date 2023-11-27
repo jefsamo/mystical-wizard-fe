@@ -1,0 +1,24 @@
+.collection-details {
+  margin-top: -150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 200px;
+  /* background-color: red; */
+}
+
+.left-content img {
+  width: 80px;
+  height: 80px;
+  flex-basis: 80px;
+  border-radius: 10px;
+}
+
+.left-content .name {
+  color: #fff;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.show {
+  cursor: pointer;
+}

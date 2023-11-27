@@ -1,0 +1,31 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.card {
+  height: 400px;
+}
+
+.card-image {
+  width: 100%;
+  height: 300px;
+}
+
+.nft-details {
+  background-color: #202020;
+  height: 70px;
+  margin-top: -10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nft-details .name {
+  color: #fff;
+}
+
+.item-id {
+  color: #fff;
+}

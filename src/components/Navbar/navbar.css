@@ -1,0 +1,22 @@
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+
+.navbar-content a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+}
+
+.navbar-content button {
+  height: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: blue;
+  font-family: Poppins, serif;
+  color: #fff;
+  border: none;
+}
